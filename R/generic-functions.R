@@ -1,3 +1,14 @@
+#' Get the most up to date consolidated version from the legislation.gov.uk page
+#'
+#' @param legurl URL of the legislation on legislation.gov.uk
+geturl <- function(legurl) {
+  xml2::read_html(legurl) %>%
+    rvest::html_nodes(xpath = "//*[@id=\"ukregfromeu\"]") %>%
+    rvest::html_nodes("a") %>%
+    rvest::html_attr("href") %>%
+    .[2]
+}
+
 #' Get number of tables
 #'
 #' @param url URL of the page you want to count the tables on
