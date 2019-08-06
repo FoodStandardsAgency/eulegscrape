@@ -1,5 +1,9 @@
-library(tidyverse)
+library(readr)
+library(dplyr)
+library(magrittr)
+library(purrr)
 library(rvest)
+library(eulegscrape)
 
 legurls <- read_csv("./data-raw/legislation-urls.csv")
 
@@ -7,7 +11,6 @@ legurls <- read_csv("./data-raw/legislation-urls.csv")
 #'
 
 legurls <- legurls %>%
-  rowwise() %>%
-  mutate(eulexurl = geturl(uklegurl))
+  mutate(eulexurl = map_chr(uklegurl, geturl))
 
 usethis::use_data(legurls, overwrite = T)

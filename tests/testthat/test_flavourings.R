@@ -1,6 +1,11 @@
 context("Flavourings tests")
+suppressWarnings(library(magrittr))
+suppressWarnings(library(dplyr))
+suppressWarnings(library(rvest))
 
-url <- geturl("https://www.legislation.gov.uk/eur/2008/1334/contents")
+url <- legurls %>%
+  filter(product == "flavourings") %>%
+  .[1,3] %>% as.character()
 geta <- gettable(url, 4)
 gete <- gettable(url, 5)
 cleana <- firstclean(geta) %>%
