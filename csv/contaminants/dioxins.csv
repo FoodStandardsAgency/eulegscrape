@@ -1,0 +1,39 @@
+﻿Foodstuffs,Foodstuffs,Maximum levels,Maximum levels,Maximum levels
+,,Sum of dioxins (WHO-PCDD/F-TEQ) (28),Sum of dioxins and dioxin-like PCBS (WHO-PCDD/F-PCB-TEQ) (28),"Sum of PCB28, PCB52, PCB101, PCB138, PCB153 and PCB180 (ICES – 6) (28)"
+5.1,Meat and meat products (excluding edible offal) of the following animals (14):,,,
+5.1,-  bovine animals and sheep,"2,5 pg/g fat (37)","4,0 pg/g fat (37)",40 ng/g fat (37)
+5.1,-  poultry,"1,75 pg/g fat (37)","3,0 pg/g fat (37)",40 ng/g fat (37)
+5.1,-  pigs,"1,0 pg/g fat (37)","1,25 pg/g fat (37)",40 ng/g fat (37)
+5.2,Liver of terrestrial animals referred to in 5.1 with the exception of sheep and derived products thereof,"0,30 pg/g wet weight","0,50 pg/g wet weight","3,0 ng/g wet weight"
+,Liver of sheep and derived products thereof,"1,25 pg/g wet weight","2,00 pg/g wet weight","3,0 ng/g wet weight"
+5.3,"Muscle meat of fish and fishery products and products thereof (30)  (38), with the exemption of:
+                     
+                        - wild caught eel
+                     
+                     
+                        - wild caught spiny dogfish (Squalus acanthias)
+                     
+                     
+                        - wild caught fresh water fish, with the exception of diadromous fish species caught in fresh water
+                     
+                     
+                        - fish liver and derived products
+                     
+                     
+                        - marine oils
+                     
+                     The maximum level for crustaceans applies to muscle meat from appendages and abdomen (47). In case of crabs and crab-like crustaceans (Brachyura and Anomura) it applies to muscle meat from appendages.","3,5 pg/g wet weight","6,5 pg/g wet weight",75 ng/g wet weight
+5.4,"Muscle meat of wild caught fresh water fish, with the exception of diadromous fish species caught in fresh water, and products thereof (30)","3,5 pg/g wet weight","6,5 pg/g wet weight",125 ng/g wet weight
+5.4a,Muscle meat of wild caught spiny dogfish (Squalus acanthias) and products thereof (38),"3,5 pg/g wet weight","6,5 pg/g wet weight",200 ng/g wet weight
+5.5,Muscle meat of wild caught eel (Anguilla anguilla) and products thereof,"3,5 pg/g wet weight","10,0 pg/g wet weight",300 ng/g wet weight
+5.6,Fish liver and derived products thereof with the exception of marine oils referred to in point 5.7,,"20,0 pg/g wet weight (41)",200 ng/g wet weight (41)
+5.7,"Marine oils (fish body oil, fish liver oil and oils of other marine organisms intended for human consumption)","1,75 pg/g fat","6,0 pg/g fat",200 ng/g fat
+5.8,"Raw milk (14) and dairy products (14), including butter fat","2,5 pg/g fat (37)","5,5 pg/g fat (37)",40 ng/g fat (37)
+5.9,Hen eggs and egg products (14),"2,5 pg/g fat (37)","5,0 pg/g fat (37)",40 ng/g fat (37)
+5.10,Fat of the following animals:,,,
+5.10,-  bovine animals and sheep,"2,5 pg/g fat","4,0 pg/g fat",40 ng/g fat
+5.10,-  poultry,"1,75 pg/g fat","3,0 pg/g fat",40 ng/g fat
+5.10,-  pigs,"1,0 pg/g fat","1,25 pg/g fat",40 ng/g fat
+5.11,Mixed animal fats,"1,5 pg/g fat","2,50 pg/g fat",40 ng/g fat
+5.12,Vegetable oils and fats,"0,75 pg/g fat","1,25 pg/g fat",40 ng/g fat
+5.13,Foods for infants and young children (12),"0,1 pg/g wet weight","0,2 pg/g wet weight","1,0 ng/g wet weight"

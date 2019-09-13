@@ -1,0 +1,129 @@
+﻿Reference number,Description of food,Ethanol 10 % (v/v),Acetic acid 3 % (w/v),Ethanol 20 % (v/v),Ethanol 50 % (v/v),Any vegetable oil containing less than 1 % unsaponifiable matter,"poly(2,6-diphenyl-p-phenylene oxide), particle size 60-80 mesh, pore size 200 nm"
+01,Beverages,,,,,,
+01.01,Non-alcoholic beverages or alcoholic beverages of an alcoholic strength lower than or equal to 6 % vol.:,,,,,,
+,"A.  Clear drinks:
+                     Water, ciders, clear fruit or vegetable juices of normal strength or concentrated, fruit nectars, lemonades, syrups, bitters, infusions, coffee, tea, beers, soft drinks, energy drinks and the like, flavoured water, liquid coffee extract",,X(*),X,,,
+,"B.  cloudy drinks:
+                     juices and nectars and soft drinks containing fruit pulp, musts containing fruit pulp, liquid chocolate",,X(*),,X,,
+01.02,Alcoholic beverages of an alcoholic strength of between 6 %vol and 20 %.,,,X,,,
+01.03,Alcoholic beverages of an alcoholic strength above 20 % and all cream liquors,,,,X,,
+01.04,Miscellaneous: undenaturated ethyl alcohol,,X(*),,,Substitute 95 % ethanol,
+02,"Cereals, cereal products, pastry, biscuits, cakes and other bakers’ wares",,,,,,
+02.01,Starches,,,,,,X
+02.02,"Cereals, unprocessed, puffed, in flakes (including popcorn, corn flakes and the like)",,,,,,X
+02.03,Cereal flour and meal,,,,,,X
+02.04,"Dry pasta e.g. macaroni, spaghetti and similar products and fresh pasta",,,,,,X
+02.05,"Pastry, biscuits, cakes, bread, and other bakers’ wares, dry:",,,,,,
+,A.  With fatty substances on the surface,,,,,X/3,
+,B.  Other,,,,,,X
+02.06,"Pastry, cakes, bread, dough and other bakers’ wares, fresh:",,,,,,
+,A.  With fatty substances on the surface,,,,,X/3,
+,B.  Other,,,,,,X
+03,"Chocolate, sugar and products thereof
+                     
+                     
+                        Confectionery products",,,,,,
+03.01,"Chocolate, chocolate-coated products, substitutes and products coated with substitutes",,,,,X/3,
+03.02,Confectionery products:,,,,,,
+,A.  In solid form:,,,,,,
+,I.  With fatty substances on the surface,,,,,X/3,
+,II.  Other,,,,,,X
+,B.  In paste form:,,,,,,
+,I.  With fatty substances on the surface,,,,,X/2,
+,II.  Moist,,,X,,,
+03.03,Sugar and sugar products,,,,,,
+,A.  In solid form: crystal or powder,,,,,,X
+,"B.  Molasses, sugar syrups, honey and the like",X,,,,,
+04,"Fruit, vegetables and products thereof",,,,,,
+04.01,"Fruit, fresh or chilled:",,,,,,
+04.01,A.  unpeeled and uncut,,,,,,X/10
+04.01,B.  peeled and/or cut,X,X (*),,,,
+04.02,Processed fruit:,,,,,,
+,"A.  Dried or dehydrated fruits, whole, sliced, flour or powder",,,,,,X
+,"B.  Fruit in the form of purée, preserves, pastes or in its own juice or in sugar syrup (jams, compote, and similar products)",,X(*),X,,,
+,C.  Fruit preserved in a liquid medium:,,,,,,
+,I.  In an oily medium,,,,,X,
+,II.  In an alcoholic medium,,,,X,,
+04.03,"Nuts (peanuts, chestnuts, almonds, hazelnuts, walnuts, pine kernels and others):",,,,,,
+,"A.  Shelled, dried, flaked or powdered",,,,,,X
+,B.  Shelled and roasted,,,,,,X
+,C.  In paste or cream form,X,,,,X,
+04.04,"Vegetables, fresh or chilled:",,,,,,
+,A.  unpeeled and uncut,,,,,,X/10
+,B.  peeled and/or cut,X,X (*),,,,
+04.05,"Processed vegetables:
+                     A.  Dried or dehydrated vegetables whole, sliced or in the form of flour or powder.",,,,,,X
+04.05,B.  (obsolete),,,,,,
+04.05,"C.  Vegetables in the form of purée, preserves, pastes or in its own juice (including pickled and in brine).",,X (*),X,,,
+04.05,D.  Preserved vegetables:,,,,,,
+04.05,I.  In an oily medium,X,,,,X,
+04.05,II.  In an alcoholic medium,,,,X,,
+05,Fats and oils,,,,,,
+05.01,"Animals and vegetable fats and oils, whether natural or treated (including cocoa butter, lard, resolidified butter)",,,,,X,
+05.02,"Margarine, butter and other fats and oils made from water emulsions in oil",,,,,X/2,
+06,Animal products and eggs,,,,,,
+06.01,Fish:,,,,,,
+,"A.  Fresh, chilled, processed, salted or smoked including fish eggs",X,,,,X/3(**),
+,B.  Preserved fish:,,,,,,
+,I.  In an oily medium,X,,,,X,
+,II.  In an aqueous medium,,X(*),X,,,
+06.02,"Crustaceans and molluscs (including oysters, mussels, snails)",,,,,,
+,A.  Fresh within the shell,,,,,,
+,"B.  Shell removed, processed, preserved or cooked with the shell",,,,,,
+,I.  In an oily medium,X,,,,X,
+,II.  In an aqueous medium,,X(*),X,,,
+06.03,Meat of all zoological species (including poultry and game):,,,,,,
+,"A.  Fresh, chilled, salted, smoked",X,,,,X/4(**),
+,"B.  Processed meat products (such as ham, salami, bacon, sausages, and other) or in the form of paste, creams",X,,,,X/4(**),
+,C.  Marinated meat products in an oily medium,X,,,,X,
+06.04,Preserved meat:,,,,,,
+,A.  In an fatty or oily medium,X,,,,X/3,
+,B.  In an aqueous medium,,X(*),,X,,
+06.05,"Whole eggs, egg yolk, egg white",,,,,,
+,A.  Powdered or dried or frozen,,,,,,X
+,B.  Liquid and cooked,,,,X,,
+07,Milk products,,,,,,
+07.01,Milk,,,,,,
+,"A.  Milk and milk based drinks whole, partly dried and skimmed or partly skimmed",,,,X,,
+,B.  Milk powder including infant formula (based on whole milk powder),,,,,,X
+07.02,"Fermented milk such as yoghurt, buttermilk and similar products",,X(*),,X,,
+07.03,Cream and sour cream,,X(*),,X,,
+07.04,Cheeses:,,,,,,
+,"A.  Whole, with not edible rind",,,,,,X
+,"B.  Natural cheese without rind or with edible rind (gouda, camembert, and the like) and melting cheese",,,,,X/3(**),
+,"C.  Processed cheese (soft cheese, cottage cheese and similar)",,X(*),,X,,
+,D.  Preserved cheese:,,,,,,
+,I.  In an oily medium,X,,,,X,
+,"II.  In an aqueous medium (feta, mozarella, and similar)",,X(*),,X,,
+08,Miscellaneous products,,,,,,
+08.01,Vinegar,,X,,,,
+08.02,Fried or roasted foods:,,,,,,
+,"A.  Fried potatoes, fritters and the like",X,,,,X/5,
+,B.  Of animal origin,X,,,,X/4,
+08.03,"Preparations for soups, broths, sauces, in liquid, solid or powder form (extracts, concentrates); homogenised composite food preparations, prepared dishes including yeast and raising agents",,,,,,
+,A.  Powdered or dried:,,,,,,
+,I.  With fatty character,,,,,X/5,
+,II.  Other,,,,,,X
+,B.  any other form than powdered or dried:,,,,,,
+,I.  With fatty character,X,X(*),,,X/3,
+,II.  Other,,X(*),X,,,
+08.04,Sauces:,,,,,,
+,A.  With aqueous character,,X(*),X,,,
+,"B.  With fatty character e.g. mayonnaise, sauces derived from mayonnaise, salad creams and other oil/water mixtures e.g. coconut based sauces",X,X(*),,,X,
+08.05,Mustard (except powdered mustard under heading 08.14),X,X(*),,,X/3(**),
+08.06,"Sandwiches, toasted bread pizza and the like containing any kind of foodstuff",,,,,,
+,A.  With fatty substances on the surface,X,,,,X/5,
+,B.  Other,,,,,,X
+08.07,Ice-creams,,,X,,,
+08.08,Dried foods:,,,,,,
+,A.  With fatty substances on the surface,,,,,X/5,
+,B.  Other,,,,,,X
+08.09,Frozen or deep-frozen foods,,,,,,X
+08.10,Concentrated extracts of an alcoholic strength equal to or exceeding 6 % vol.,,X(*),,X,,
+08.11,Cocoa:,,,,,,
+,"A.  Cocoa powder, including fat-reduced and highly fat reduced",,,,,,X
+,B.  Cocoa paste,,,,,X/3,
+08.12,"Coffee, whether or not roasted, decaffeinated or soluble, coffee substitutes, granulated or powdered",,,,,,X
+08.13,"Aromatic herbs and other herbs such as camomile, mallow, mint, tea, lime blossom and others",,,,,,X
+08.14,"Spices and seasonings in the natural state such as cinnamon, cloves, powdered mustard, pepper, vanilla, saffron, salt and other",,,,,,X
+08.15,"Spices and seasoning in oily medium such as pesto, curry paste",,,,,X,

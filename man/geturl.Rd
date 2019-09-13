@@ -4,10 +4,10 @@
 \alias{geturl}
 \title{Get the most up to date consolidated version from the legislation.gov.uk page}
 \usage{
-geturl(legurl)
+geturl(url)
 }
 \arguments{
-\item{legurl}{URL of the legislation on legislation.gov.uk}
+\item{url}{URL of the legislation on legislation.gov.uk}
 }
 \description{
 Get the most up to date consolidated version from the legislation.gov.uk page

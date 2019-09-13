@@ -1,0 +1,90 @@
+﻿E number of the carrier,Name of the carrier,Maximum level,Food additives to which the carrier may be added
+E 1520,"Propane-1, 2-diol (propylene glycol)",1 000mg/kg in final food (as carry-over) (1),"Colours, emulsifiers and antioxidants"
+E 422,Glycerol,quantum satis,All food additives
+E 420,Sorbitol,quantum satis,All food additives
+E 421,Mannitol,quantum satis,All food additives
+E 953,Isomalt,quantum satis,All food additives
+E 965,Maltitol,quantum satis,All food additives
+E 966,Lactitol,quantum satis,All food additives
+E 967,Xylitol,quantum satis,All food additives
+E 968,Erythritol,quantum satis,All food additives
+E 400 - E 404,Alginic acid - alginates (Table 7 of Part 6),quantum satis,All food additives
+E 405,"Propane-1, 2-diol alginate",quantum satis,All food additives
+E 406,Agar,quantum satis,All food additives
+E 407,Carrageenan,quantum satis,All food additives
+E 410,Locust bean gum,quantum satis,All food additives
+E 412,Guar gum,quantum satis,All food additives
+E 413,Tragacanth,quantum satis,All food additives
+E 414,Gum arabic (acacia gum),quantum satis,All food additives
+E 415,Xanthan gum,quantum satis,All food additives
+E 440,Pectins,quantum satis,All food additives
+E 432 - E 436,Polysorbates (Table 4 of Part 6),quantum satis,Antifoaming agents
+E 442,Ammoniumphosphatides,quantum satis,Antioxidants
+E 460,Cellulose,quantum satis,All food additives
+E 461,Methyl cellulose,quantum satis,All food additives
+E 462,Ethyl cellulose,quantum satis,All food additives
+E 463,Hydroxypropyl cellulose,quantum satis,All food additives
+E 464,Hydroxypropyl methyl cellulose,quantum satis,All food additives
+E 465,Ethyl methyl cellulose,quantum satis,All food additives
+E 466,"Sodium carboxy methyl cellulose, Cellulose gum",,
+E 322,Lecithins,quantum satis,Colours and fat-soluble antioxidants
+E 432 - E 436,Polysorbates (Table 4 of Part 6),quantum satis,Colours and fat-soluble antioxidants
+E 470b,Magnesium salts of fatty acids,quantum satis,Colours and fat-soluble antioxidants
+E 471,Mono- and diglycerides of fatty acids,quantum satis,Colours and fat-soluble antioxidants
+E 472a,Acetic acid esters of mono- and diglycerides of fatty acids,quantum satis,Colours and fat-soluble antioxidants
+E 472c,Citric acid esters of mono- and diglycerides of fatty acids,quantum satis,Colours and fat-soluble antioxidants
+E 472e,Mono and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids,quantum satis,Colours and fat-soluble antioxidants
+E 473,Sucrose esters of fatty acids,quantum satis,Colours and fat-soluble antioxidants
+E 475,Polyglycerol esters of fatty acids,quantum satis,Colours and fat-soluble antioxidants
+E 491 - E 495,Sorbitan esters (Table 5 of Part 6),quantum satis,Colours and antifoaming agents
+E 1404,Oxidised starch,quantum satis,All food additives
+E 1410,Monostarch phosphate,quantum satis,All food additives
+E 1412,Distarch phosphate,quantum satis,All food additives
+E 1413,Phosphated distarch phosphate,quantum satis,All food additives
+E 1414,Acetylated distarch phosphate,quantum satis,All food additives
+E 1420,Acetylated starch,quantum satis,All food additives
+E 1422,Acetylated distarch adipate,quantum satis,All food additives
+E 1440,Hydroxy propyl starch,quantum satis,All food additives
+E 1442,Hydroxy propyl distarch phosphate,quantum satis,All food additives
+E 1450,Starch sodium octenyl succinate,quantum satis,All food additives
+E 1451,Acetylated oxidised starch,quantum satis,All food additives
+E 170,Calcium carbonate,quantum satis,All food additives
+E 263,Calcium acetate,quantum satis,All food additives
+E 331,Sodium citrates,quantum satis,All food additives
+E 332,Potassium citrates,quantum satis,All food additives
+E 341,Calcium phosphates,quantum satis,All food additives
+E 501,Potassium carbonates,quantum satis,All food additives
+E 504,Magnesium carbonates,quantum satis,All food additives
+E 508,Potassium chloride,quantum satis,All food additives
+E 509,Calcium chloride,quantum satis,All food additives
+E 511,Magnesium chloride,quantum satis,All food additives
+E 514,Sodium sulphates,quantum satis,All food additives
+E 515,Potassium sulphates,quantum satis,All food additives
+E 516,Calcium sulphate,quantum satis,All food additives
+E 517,Ammonium sulphate,quantum satis,All food additives
+E 577,Potassium gluconate,quantum satis,All food additives
+E 640,Glycine and its sodium salt,quantum satis,All food additives
+E 1505 (1),Triethyl citrate,quantum satis,All food additives
+E 1518 (1),Glyceryl triacetate (triacetin),quantum satis,All food additives
+E 551,Silicon dioxide,quantum satis,Emulsifiers and colours
+E 552,Calcium silicate,quantum satis,Emulsifiers and colours
+E 553b,Talc,50 mg/kg in the colour preparation,Colours
+E 901,"Beeswax, white and yellow",quantum satis,Colours
+E 1200,Polydextrose,quantum satis,All food additives
+E 1201,Polyvinylpyrrolidone,quantum satis,Sweeteners
+E 1202,Polyvinylpolypyrrolidone,quantum satis,Sweeteners
+E 322,Lecithins,quantum satis,Glazing agents for fruit
+E 432 - E 436,Polysorbates,quantum satis,Glazing agents for fruit
+E 470a,"Sodium, potassium and calcium salts of fatty acids",quantum satis,Glazing agents for fruit
+E 471,Mono- and diglycerides of fatty acids,quantum satis,Glazing agents for fruit
+E 491 - E 495,Sorbitan esters,quantum satis,Glazing agents for fruit
+E 570,Fatty acids,quantum satis,Glazing agents for fruit
+E 900,Dimethyl polysiloxane,quantum satis,Glazing agents for fruit
+E 1521,Polyethylene glycol,quantum satis,Sweeteners
+E 425,Konjac,quantum satis,All food additives
+E 459,Beta-cyclodextrin,1 000mg/kg in final food,All food additives
+E 468,"Crosslinked sodium carboxy methyl cellulose
+ Cross-linked cellulose gum",quantum satis,Sweeteners
+E 469,"Enzymatically hydrolysed carboxymethylcellulose
+ Enzymatically hydrolysed cellulose gum",quantum satis,All food additives
+E 555,Potassium aluminium silicate,90 % relative to the pigment,In E 171 titanium dioxide and E 172 iron oxides and hydroxides

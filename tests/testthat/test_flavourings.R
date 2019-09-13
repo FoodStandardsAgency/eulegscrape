@@ -2,10 +2,11 @@ context("Flavourings tests")
 suppressWarnings(library(magrittr))
 suppressWarnings(library(dplyr))
 suppressWarnings(library(rvest))
+suppressWarnings(library(readr))
 
-url <- legurls %>%
+url <- read_csv("legislation-urls.csv") %>%
   filter(product == "flavourings") %>%
-  .[1,3] %>% as.character()
+  .[1,2] %>% as.character() %>% geturl()
 geta <- gettable(url, 4)
 gete <- gettable(url, 5)
 cleana <- firstclean(geta) %>%

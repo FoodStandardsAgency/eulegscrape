@@ -9,7 +9,7 @@ standardising hyphens, removing the markers for legislation updates}
 firstclean(table)
 }
 \arguments{
-\item{table}{The table you have scraped from the page and now want to lean}
+\item{table}{The table you have scraped from the page and now want to clean}
 }
 \description{
 Generic cleaning functions

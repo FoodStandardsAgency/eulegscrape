@@ -1,0 +1,167 @@
+﻿E number of the added food additive,Name of the added food additive,Maximum level in enzyme preparation,Maximum level in final food except beverages,Maximum level in beverages,Can be used as a carrier?
+E 170,Calcium carbonate,quantum satis,quantum satis,quantum satis,Yes
+E 200,Sorbic acid,20 000mg/kg (singly or in combination expressed as the free acid),20mg/kg,10mg/l,
+E 202,Potassium sorbate,20 000mg/kg (singly or in combination expressed as the free acid),20mg/kg,10mg/l,
+E 210,Benzoic acid,"5 000mg/kg (singly or in combination expressed as the free acid)
+ 12 000mg/kg in rennet","1,7 mg/kg
+ 5 mg/kg in cheese where rennet has been used","0,85 mg/l
+ 2,5 mg/l in whey based beverages where rennet has been used",
+E 211,Sodium benzoate,"5 000mg/kg (singly or in combination expressed as the free acid)
+ 12 000mg/kg in rennet","1,7 mg/kg
+ 5 mg/kg in cheese where rennet has been used","0,85 mg/l
+ 2,5 mg/l in whey based beverages where rennet has been used",
+E 214,Ethyl-p-hydroxybenzoate,2 000mg/kg (singly or in combination expressed as the free acid),2mg/kg,1mg/l,
+E 215,Sodium ethyl p-hydroxybenzoate,2 000mg/kg (singly or in combination expressed as the free acid),2mg/kg,1mg/l,
+E 218,Methyl p-hydroxybenzoate,2 000mg/kg (singly or in combination expressed as the free acid),2mg/kg,1mg/l,
+E 219,Sodium methyl p-hydroxybenzoate,2 000mg/kg (singly or in combination expressed as the free acid),2mg/kg,1mg/l,
+E 220,Sulphur dioxide,"2 000mg/kg (singly or in combination expressed as SO2)
+ 5 000mg/kg only in food enzymes for brewing
+ 6 000mg/kg only for barley beta-amylase
+ 10 000mg/kg only for papain in solid form",2mg/kg,2mg/l,
+E 221,Sodium sulphite,"2 000mg/kg (singly or in combination expressed as SO2)
+ 5 000mg/kg only in food enzymes for brewing
+ 6 000mg/kg only for barley beta-amylase
+ 10 000mg/kg only for papain in solid form",2mg/kg,2mg/l,
+E 222,Sodium hydrogen sulphite,"2 000mg/kg (singly or in combination expressed as SO2)
+ 5 000mg/kg only in food enzymes for brewing
+ 6 000mg/kg only for barley beta-amylase
+ 10 000mg/kg only for papain in solid form",2mg/kg,2mg/l,
+E 223,Sodium metabisulphite,"2 000mg/kg (singly or in combination expressed as SO2)
+ 5 000mg/kg only in food enzymes for brewing
+ 6 000mg/kg only for barley beta-amylase
+ 10 000mg/kg only for papain in solid form",2mg/kg,2mg/l,
+E 224,Potassium metabisulphite,"2 000mg/kg (singly or in combination expressed as SO2)
+ 5 000mg/kg only in food enzymes for brewing
+ 6 000mg/kg only for barley beta-amylase
+ 10 000mg/kg only for papain in solid form",2mg/kg,2mg/l,
+E 250,Sodium nitrite,500mg/kg,"0,01mg/kg",No use,
+E 260,Acetic acid,quantum satis,quantum satis,quantum satis,Yes
+E 261,Potassium acetates,quantum satis,quantum satis,quantum satis,
+E 262,Sodium acetates,quantum satis,quantum satis,quantum satis,
+E 263,Calcium acetate,quantum satis,quantum satis,quantum satis,
+E 270,Lactic acid,quantum satis,quantum satis,quantum satis,Yes
+E 281,Sodium propionate,quantum satis,quantum satis,50mg/l,
+E 290,Carbon dioxide,quantum satis,quantum satis,quantum satis,
+E 296,Malic acid,quantum satis,quantum satis,quantum satis,Yes
+E 300,Ascorbic acid,quantum satis,quantum satis,quantum satis,Yes
+E 301,Sodium ascorbate,quantum satis,quantum satis,quantum satis,Yes
+E 302,Calcium ascorbate,quantum satis,quantum satis,quantum satis,Yes
+E 304,Fatty acid esters of ascorbic acid,quantum satis,quantum satis,quantum satis,
+E 306,Tocopherol-rich extract,quantum satis,quantum satis,quantum satis,
+E 307,Alpha-tocopherol,quantum satis,quantum satis,quantum satis,
+E 308,Gamma-tocopherol,quantum satis,quantum satis,quantum satis,
+E 309,Delta-tocopherol,quantum satis,quantum satis,quantum satis,
+E 322,Lecithins,quantum satis,quantum satis,quantum satis,Yes
+E 325,Sodium lactate,quantum satis,quantum satis,quantum satis,
+E 326,Potassium lactate,quantum satis,quantum satis,quantum satis,
+E 327,Calcium lactate,quantum satis,quantum satis,quantum satis,Yes
+E 330,Citric acid,quantum satis,quantum satis,quantum satis,Yes
+E 331,Sodium citrates,quantum satis,quantum satis,quantum satis,Yes
+E 332,Potassium citrates,quantum satis,quantum satis,quantum satis,Yes
+E 333,Calcium citrates,quantum satis,quantum satis,quantum satis,
+E 334,Tartaric acid (L(+)-),quantum satis,quantum satis,quantum satis,
+E 335,Sodium tartrates,quantum satis,quantum satis,quantum satis,Yes
+E 336,Potassium tartrates,quantum satis,quantum satis,quantum satis,Yes
+E 337,Sodium potassium tartrate,quantum satis,quantum satis,quantum satis,
+E 350,Sodium malates,quantum satis,quantum satis,quantum satis,Yes
+E 338,Phosphoric acid,10 000mg/kg (expressed as P2O5),quantum satis,quantum satis,
+E 339,Sodium phosphates,"50 000mg/kg (singly or in combination, expressed as P2O5)",quantum satis,quantum satis,Yes
+E 340,Potassium phosphates,"50 000mg/kg (singly or in combination, expressed as P2O5)",quantum satis,quantum satis,Yes
+E 341,Calcium phosphates,"50 000mg/kg (singly or in combination, expressed as P2O5)",quantum satis,quantum satis,Yes
+E 343,Magnesium phosphates,"50 000mg/kg (singly or in combination, expressed as P2O5)",quantum satis,quantum satis,Yes
+E 351,Potassium malate,quantum satis,quantum satis,quantum satis,Yes
+E 352,Calcium malates,quantum satis,quantum satis,quantum satis,Yes
+E 354,Calcium tartrate,quantum satis,quantum satis,quantum satis,
+E 380,Triammonium citrate,quantum satis,quantum satis,quantum satis,
+E 400,Alginic acid,quantum satis,quantum satis,quantum satis,Yes
+E 401,Sodium alginate,quantum satis,quantum satis,quantum satis,Yes
+E 402,Potassium alginate,quantum satis,quantum satis,quantum satis,Yes
+E 403,Ammonium alginate,quantum satis,quantum satis,quantum satis,
+E 404,Calcium alginate,quantum satis,quantum satis,quantum satis,Yes
+E 406,Agar,quantum satis,quantum satis,quantum satis,Yes
+E 407,Carrageenan,quantum satis,quantum satis,quantum satis,Yes
+E 407a,Processed euchema seaweed,quantum satis,quantum satis,quantum satis,
+E 410,Locust bean gum,quantum satis,quantum satis,quantum satis,Yes
+E 412,Guar gum,quantum satis,quantum satis,quantum satis,Yes
+E 413,Tragacanth,quantum satis,quantum satis,quantum satis,Yes
+E 414,Acacia gum (gum arabic),quantum satis,quantum satis,quantum satis,Yes
+E 415,Xanthan gum,quantum satis,quantum satis,quantum satis,Yes
+E 417,Tara gum,quantum satis,quantum satis,quantum satis,Yes
+E 418,Gellan gum,quantum satis,quantum satis,quantum satis,Yes
+E 420,Sorbitol,quantum satis,quantum satis,quantum satis,Yes
+E 421,Mannitol,quantum satis,quantum satis,quantum satis,Yes
+E 422,Glycerol,quantum satis,quantum satis,quantum satis,Yes
+E 440,Pectins,quantum satis,quantum satis,quantum satis,Yes
+E 450,Diphosphates,50 000mg/kg (singly or in combination expressed as P2O5),quantum satis,quantum satis,
+E 451,Triphosphates,50 000mg/kg (singly or in combination expressed as P2O5),quantum satis,quantum satis,
+E 452,Polyphosphates,50 000mg/kg (singly or in combination expressed as P2O5),quantum satis,quantum satis,
+E 460,Cellulose,quantum satis,quantum satis,quantum satis,Yes
+E 461,Methyl cellulose,quantum satis,quantum satis,quantum satis,Yes
+E 462,Ethyl cellulose,quantum satis,quantum satis,quantum satis,
+E 463,Hydroxypropyl cellulose,quantum satis,quantum satis,quantum satis,Yes
+E 464,Hydroxypropyl methyl cellulose,quantum satis,quantum satis,quantum satis,Yes
+E 465,Ethyl methyl cellulose,quantum satis,quantum satis,quantum satis,
+E 466,"Sodium carboxy methyl cellulose,
+ Cellulose gum",quantum satis,quantum satis,quantum satis,Yes
+E 469,Enzymatically hydrolysed carboxy methyl cellulose,quantum satis,quantum satis,quantum satis,
+E 470a,"Sodium, potassium and calcium salts of fatty acids",quantum satis,quantum satis,quantum satis,
+E 470b,Magnesium salts of fatty acids,quantum satis,quantum satis,quantum satis,
+E 471,Mono- and diglycerides of fatty acids,quantum satis,quantum satis,quantum satis,Yes
+E 472a,Acetic acid esters of mono- and diglycerides of fatty acids,quantum satis,quantum satis,quantum satis,Yes
+E 472b,Lactic acid esters of mono- and diglycerides of fatty acids,quantum satis,quantum satis,quantum satis,Yes
+E 472c,Citric acid esters of mono- and diglycerides of fatty acids,quantum satis,quantum satis,quantum satis,Yes
+E 472d,Tartaric acid esters of mono- and diglycerides of fatty acids,quantum satis,quantum satis,quantum satis,Yes
+E 472e,Mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids,quantum satis,quantum satis,quantum satis,Yes
+E 472f,Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids,quantum satis,quantum satis,quantum satis,Yes
+E 473,Sucrose esters of fatty acids,50 000mg/kg,50mg/kg,25mg/L,"Yes, only as a carrier"
+E 500,Sodium carbonates,quantum satis,quantum satis,quantum satis,Yes
+E 501,Potassium carbonates,quantum satis,quantum satis,quantum satis,"Yes, E 501 (i) potassium carbonate only"
+E 503,Ammonium carbonates,quantum satis,quantum satis,quantum satis,Yes
+E 504,Magnesium carbonates,quantum satis,quantum satis,quantum satis,Yes
+E 507,Hydrochloric acid,quantum satis,quantum satis,quantum satis,Yes
+E 508,Potassium chloride,quantum satis,quantum satis,quantum satis,Yes
+E 509,Calcium chloride,quantum satis,quantum satis,quantum satis,Yes
+E 511,Magnesium chloride,quantum satis,quantum satis,quantum satis,Yes
+E 513,Sulphuric acid,quantum satis,quantum satis,quantum satis,Yes
+E 514,Sodium sulphates,quantum satis,quantum satis,quantum satis,"Yes, E 514 (i) sodium sulphate only"
+E 515,Potassium sulphates,quantum satis,quantum satis,quantum satis,Yes
+E 516,Calcium sulphate,quantum satis,quantum satis,quantum satis,Yes
+E 517,Ammonium sulphate,100 000mg/kg,100mg/kg,50mg/l,Yes
+E 524,Sodium hydroxide,quantum satis,quantum satis,quantum satis,
+E 525,Potassium hydroxide,quantum satis,quantum satis,quantum satis,Yes
+E 526,Calcium hydroxide,quantum satis,quantum satis,quantum satis,Yes
+E 527,Ammonium hydroxide,quantum satis,quantum satis,quantum satis,Yes
+E 528,Magnesium hydroxide,quantum satis,quantum satis,quantum satis,Yes
+E 529,Calcium oxide,quantum satis,quantum satis,quantum satis,Yes
+E 530,Magnesium oxide,quantum satis,quantum satis,quantum satis,
+E 551,Silicon dioxide,50 000mg/kg in the dry powdered preparation,quantum satis,quantum satis,Yes
+E 570,Fatty acids,quantum satis,quantum satis,quantum satis,
+E 574,Gluconic acid,quantum satis,quantum satis,quantum satis,Yes
+E 575,Glucono-delta-lactone,quantum satis,quantum satis,quantum satis,Yes
+E 576,Sodium gluconate,quantum satis,quantum satis,quantum satis,
+E 577,Potassium gluconate,quantum satis,quantum satis,quantum satis,
+E 578,Calcium gluconate,quantum satis,quantum satis,quantum satis,Yes
+E 640,Glycine and its sodium salt,quantum satis,quantum satis,quantum satis,
+E 920,L-cysteine,10 000mg/kg,10mg/kg,5mg/l,
+E 938,Argon,quantum satis,quantum satis,quantum satis,
+E 939,Helium,quantum satis,quantum satis,quantum satis,
+E 941,Nitrogen,quantum satis,quantum satis,quantum satis,
+E 942,Nitrous oxide,quantum satis,quantum satis,quantum satis,
+E 948,Oxygen,quantum satis,quantum satis,quantum satis,
+E 949,Hydrogen,quantum satis,quantum satis,quantum satis,
+E 965,Maltitol,quantum satis,quantum satis,quantum satis,Yes
+E 966,Lactitol,quantum satis,quantum satis,quantum satis,Yes (only as a carrier)
+E 967,Xylitol,quantum satis,quantum satis,quantum satis,Yes (only as a carrier)
+E 1200,Polydextrose,quantum satis,quantum satis,quantum satis,Yes
+E 1404,Oxidised starch,quantum satis,quantum satis,quantum satis,Yes
+E 1410,Monostarch phosphate,quantum satis,quantum satis,quantum satis,Yes
+E 1412,Distarch phosphate,quantum satis,quantum satis,quantum satis,Yes
+E 1413,Phosphated distarch phosphate,quantum satis,quantum satis,quantum satis,Yes
+E 1414,Acetylated distarch phosphate,quantum satis,quantum satis,quantum satis,Yes
+E 1420,Acetylated starch,quantum satis,quantum satis,quantum satis,Yes
+E 1422,Acetylated distarch adipate,quantum satis,quantum satis,quantum satis,Yes
+E 1440,Hydroxy propyl starch,quantum satis,quantum satis,quantum satis,Yes
+E 1442,Hydroxy propyl distarch phosphate,quantum satis,quantum satis,quantum satis,Yes
+E 1450,Starch sodium octenyl succinate,quantum satis,quantum satis,quantum satis,Yes
+E 1451,Acetylated oxidised starch,quantum satis,quantum satis,quantum satis,Yes
+E 1520,"Propane-1, 2-diol (propylene glycol)",500g/kg,(see footnote) (2),(see footnote) (2),"Yes, only as a carrier"
