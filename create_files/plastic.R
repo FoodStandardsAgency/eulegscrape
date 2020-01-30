@@ -7,6 +7,8 @@ library(rvest)
 library(eulegscrape)
 library(stringr)
 library(tidyr)
+library(assertthat)
+library(purrr)
 
 
 url <- read_csv("./reference/legislation-urls.csv") %>%
@@ -18,7 +20,10 @@ htmldoc <- read_html(url)
 
 # Annex I, Table 1
 
-substances <- getbadtable(htmldoc, 4) %>%
+table <- getbadtable(htmldoc, 4)
+assert_that(ncol(table) == 11 & nrow(table) >= 100, msg = "plastic - annex I table 1 probably not right table")
+
+substances <- table %>%
   firstclean() %>%
   slice(-1) %>%
   mutate_at(vars(X9, X11), ~bracketonly(.)) %>%
@@ -31,7 +36,10 @@ write_excel_csv(substances, "./csv/foodcontact/plastic/substances.csv")
 
 # Annex I, Table 2
 
-grouprestrict <- getbadtable(htmldoc, 5) %>%
+table <- getbadtable(htmldoc, 5)
+assert_that(ncol(table) == 4 & nrow(table) >= 40, msg = "plastic - annex I table 2 probably not right table")
+
+grouprestrict <- table %>%
   firstclean() %>%
   slice(-1) %>%
   mutate(X2 = str_replace_all(X2, "(\\s){2,}", ", ")) %>%
@@ -42,7 +50,10 @@ write_excel_csv(grouprestrict, "./csv/foodcontact/plastic/group-restrictions.csv
 
 # Annex I, Table 3
 
-compliance <- getbadtable(htmldoc, 6) %>%
+table <- getbadtable(htmldoc, 6)
+assert_that(ncol(table) == 2 & nrow(table) >= 30, msg = "plastic - annex I table 3 probably not right table")
+
+compliance <- table %>%
   firstclean() %>%
   slice(-1) %>%
   mutate(X1 = bracketonly(X1)) %>%
@@ -54,7 +65,10 @@ write_excel_csv(compliance, "./csv/foodcontact/plastic/compliance.csv")
 
 # Annex II - restrictions on materials and articles
 
-materialrestrict <- gettable(url, 8) %>% .[1,2] %>% as.character() %>%
+table <- gettable(url, 8)
+assert_that(ncol(table) == 2 & nrow(table) == 1, msg = "plastic - annex II probably not right table")
+
+materialrestrict <- table %>% .[1,2] %>% as.character() %>%
   str_split(., "\n") %>%
   .[[1]] %>%
   tibble::enframe(name = NULL) %>%
@@ -69,15 +83,20 @@ write_excel_csv(materialrestrict, "./csv/foodcontact/plastic/material-restrictio
 
 # Annex III, Table 2 (and simulant names from Table 1)
 
-simname <- gettable(url, 10) %>%
+table <- gettable(url, 10)
+assert_that(ncol(table) == 2 & nrow(table) >= 5, msg = "plastic - annex III table 1 probably not right table")
+
+simname <- table %>%
   firstclean() %>%
   getnames() %>%
   mutate(Abbreviation = str_remove(Abbreviation, fixed("Food simulant ")))
 namereplace <- simname$`Food simulant` %>% as.character()
 names(namereplace) <- simname$Abbreviation
 
+table <- getbadtable(htmldoc, 11)
+assert_that(ncol(table) == 8 & nrow(table) >= 120, msg = "plastic - annex III table 2 probably not right table")
 
-simulants <- getbadtable(htmldoc, 11) %>%
+simulants <- table %>%
   mutate_at(vars(X3:X8), ~recode(., !!!namereplace)) %>%
   firstclean() %>%
   slice(-1:-2) %>%

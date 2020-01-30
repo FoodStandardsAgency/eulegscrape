@@ -8,6 +8,7 @@ library(tidyr)
 library(eulegscrape)
 library(rvest)
 library(htmltab)
+library(assertthat)
 
 url <- read_csv("./reference/legislation-urls.csv") %>%
   filter(product == "novel") %>%
@@ -16,13 +17,17 @@ url <- read_csv("./reference/legislation-urls.csv") %>%
 
 htmldoc <- read_html(url)
 
-novel <- htmldoc %>%
+table <- htmldoc %>%
   html_nodes("table") %>%
   .[9] %>%
   as.character() %>%
   str_replace_all(., fixed("\n"), "[NEWLINE]") %>%
   htmltab(., header = 0) %>%
-  as_tibble() %>%
+  as_tibble()
+
+assert_that(ncol(table) == 6 & nrow(table) >= 700, msg = "novel - probably fetching wrong table")
+
+novel <- table %>%
   mutate_all(., ~iconv(., from = "UTF-8", to = "UTF-8")) %>%
   firstclean() %>%
   mutate(fn = str_extract_all(V2, "(\\([0-9]\\))")) %>%

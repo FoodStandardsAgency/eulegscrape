@@ -7,6 +7,7 @@ library(purrr)
 library(readr)
 library(stringr)
 library(eulegscrape)
+library(assertthat)
 
 
 url <- read_csv("./reference/legislation-urls.csv") %>%
@@ -42,16 +43,17 @@ getconditions <- function(table) {
 }
 
 
-getsmoke <- function(n) {
-  table <- firstclean(gettable(url, n))
-  info <- getinfo(table)
-  conditions <- getconditions(table)
+tables <- map(c(32, 61, 87, 115, 147, 173, 195, 224, 255, 301), gettable, url = url)
+map(tables, function(x) assert_that(ncol(x) >= 25 & nrow(x) >= 10, msg = "smoke - probably not the right tables"))
+
+getsmoke <- function(table) {
+  cleantable <- firstclean(table)
+  info <- getinfo(cleantable)
+  conditions <- getconditions(cleantable)
   left_join(info, conditions)
 }
 
-smoke <- map(c(32, 61, 87, 115, 147, 173, 195, 224, 255, 301), getsmoke) %>%
-  bind_rows()
-
+smoke <- map_df(tables, getsmoke)
 
 write_excel_csv(smoke, "./csv/smoke/smoke.csv")
 

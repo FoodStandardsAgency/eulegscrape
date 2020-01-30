@@ -123,7 +123,9 @@
 01.7.1,E 460(ii),Powdered cellulose,quantum satis,,only grated and sliced mozzarella,Unripened cheese excluding products falling in category 16
 01.7.1,E 575,Glucono-delta-lactone,quantum satis,,only mozzarella,Unripened cheese excluding products falling in category 16
 01.7.2,E 1105,Lysozyme,quantum satis,,,Ripened cheese
-01.7.2,E 120,"Cochineal, Carminic acid, Carmines",125,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 3,2 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013",only red marbled cheese and red pesto cheese,Ripened cheese
+01.7.2,"
+                           
+                         E 120","Carminic acid, Carmine ",125,Maximum limit for aluminium coming from aluminium lakes of ,only red marbled cheese and red pesto cheese,Ripened cheese
 01.7.2,E 140,"Chlorophylls, Chlorophyllins",quantum satis,,only sage Derby cheese,Ripened cheese
 01.7.2,E 141,Copper complexes of chlorophylls and chlorophyllins,quantum satis,,"only sage Derby cheese, green and red pesto cheese, wasabi cheese and green marbled herb cheese",Ripened cheese
 01.7.2,E 153,Vegetable carbon,quantum satis,,only morbier cheese,Ripened cheese
@@ -155,13 +157,13 @@
 01.7.3,Group II,Colours at quantum satis,quantum satis,,,Edible cheese rind
 01.7.3,Group III,Colours with combined maximum limit,quantum satis,,"Period of application:
  until 31 July 2014",Edible cheese rind
-01.7.3,Group III,Colours with combined maximum limit,quantum satis,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines and E 180 litholrubine BK 10 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","Period of application:
+01.7.3,Group III,Colours with combined maximum limit,quantum satis,Maximum limit for aluminium coming from aluminium lakes of ,"Period of application:
  from 1 August 2014",Edible cheese rind
 01.7.3,E 104,Quinoline Yellow,10,The total quantity of E 104 and the colours in Group III shall not exceed the maximum listed for Group III,,Edible cheese rind
 01.7.3,E 160d,Lycopene,30,,,Edible cheese rind
 01.7.3,E 180,Litholrubine BK,quantum satis,,"Period of application:
  until 31 July 2014",Edible cheese rind
-01.7.3,E 180,Litholrubine BK,quantum satis,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines and E 180 litholrubine BK 10 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","Period of application:
+01.7.3,E 180,Litholrubine BK,quantum satis,Maximum limit for aluminium coming from aluminium lakes of ,"Period of application:
  from 1 August 2014",Edible cheese rind
 01.7.3,E 160b,"Annatto, Bixin, Norbixin",20,,,Edible cheese rind
 01.7.4,Group II,Colours at quantum satis,quantum satis,,,Whey cheese
@@ -176,10 +178,14 @@
 01.7.5,Group II,Colours at quantum satis,quantum satis,,only flavoured processed cheese,Processed cheese
 01.7.5,E 100,Curcumin,100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 160e and E 161b",only flavoured processed cheese,Processed cheese
 01.7.5,E 102,Tartrazine,100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 160e and E 161b",only flavoured processed cheese,Processed cheese
-01.7.5,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 160e and E 161b","only flavoured processed cheese
+01.7.5,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 160e and E 161b","only flavoured processed cheese
  Period of application:
  until 31 July 2014",Processed cheese
-01.7.5,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 160e and E 161b ; Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","only flavoured processed cheese
+01.7.5,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 160e and E 161b ; Maximum limit for aluminium coming from aluminium lakes of ","only flavoured processed cheese
  Period of application:
  from 1 August 2014",Processed cheese
 01.7.5,E 122,"Azorubine, Carmoisine",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 160e and E 161b",only flavoured processed cheese,Processed cheese
@@ -201,7 +207,9 @@
 01.7.6,Group II,Colours at quantum satis,quantum satis,,only flavoured unripened products,Cheese products (excluding products falling in category 16)
 01.7.6,Group III,Colours with combined maximum limit,100,,only flavoured unripened products,Cheese products (excluding products falling in category 16)
 01.7.6,E 1105,Lysozyme,quantum satis,,only ripened products,Cheese products (excluding products falling in category 16)
-01.7.6,E 120,"Cochineal, Carminic acid, Carmines",125,,only red marbled products,Cheese products (excluding products falling in category 16)
+01.7.6,"
+                           
+                         E 120","Carminic acid, Carmine ",125,,only red marbled products,Cheese products (excluding products falling in category 16)
 01.7.6,E 160a,Carotenes,quantum satis,,"only ripened orange, yellow and broken-white products",Cheese products (excluding products falling in category 16)
 01.7.6,E 160b,"Annatto, Bixin, Norbixin",15,,"only ripened orange, yellow and broken-white products",Cheese products (excluding products falling in category 16)
 01.7.6,E 160c,"Paprika extract, capsanthin, capsorubin",quantum satis,,"only ripened orange, yellow and broken-white products",Cheese products (excluding products falling in category 16)
@@ -415,7 +423,9 @@ Period of application:
 04.1.3,E 333,Calcium citrates,quantum satis,,,Frozen fruit and vegetables
 04.2.1,Group I,Additives,,,"E 410, E 412, E 415 E 417 may not be used to produce dehydrated foods intended to rehydrate on ingestion",Dried fruit and vegetables
 04.2.1,E 101,Riboflavins,quantum satis,,only preserves of red fruit,Dried fruit and vegetables
-04.2.1,E 120,"Cochineal, Carminic acid, Carmines",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Dried fruit and vegetables
+04.2.1,"
+                           
+                         E 120","Carminic acid, Carmine ",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Dried fruit and vegetables
 04.2.1,E 122,"Azorubine, Carmoisine",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Dried fruit and vegetables
 04.2.1,E 129,Allura Red AG,200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Dried fruit and vegetables
 04.2.1,E 131,Patent Blue V,200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Dried fruit and vegetables
@@ -441,7 +451,9 @@ Period of application:
 04.2.1,E 907,Hydrogenated poly-1-decene,2 000,,only dried fruit as glazing agent,Dried fruit and vegetables
 04.2.2,Group I,Additives,,,,"Fruit and vegetables in vinegar, oil, or brine"
 04.2.2,E 101,Riboflavins,quantum satis,,only preserves of red fruit,"Fruit and vegetables in vinegar, oil, or brine"
-04.2.2,E 120,"Cochineal, Carminic acid, Carmines",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,"Fruit and vegetables in vinegar, oil, or brine"
+04.2.2,"
+                           
+                         E 120","Carminic acid, Carmine ",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,"Fruit and vegetables in vinegar, oil, or brine"
 04.2.2,E 122,"Azorubine, Carmoisine",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,"Fruit and vegetables in vinegar, oil, or brine"
 04.2.2,E 129,Allura Red AG,200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,"Fruit and vegetables in vinegar, oil, or brine"
 04.2.2,E 131,Patent Blue V,200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,"Fruit and vegetables in vinegar, oil, or brine"
@@ -478,7 +490,9 @@ Period of application:
 04.2.2,E 962,Salt of aspartame-acesulfame,200,"Limits are expressed as (a): acesulfame K equivalent or (b) aspartame equivalent ; The maximum usable levels are derived from the maximum usable levels for its constituent parts, aspartame (E 951): and acesulfame-K (E 950) ; The levels for both E 951 and E 950 are not to be exceeded by use of the salt of aspartame-acesulfame, either alone or in combination with E 950 or E 951",only sweet-sour preserves of fruit and vegetables,"Fruit and vegetables in vinegar, oil, or brine"
 04.2.2,E 969,Advantame,3,,only sweet-sour preserves of fruit and vegetables,"Fruit and vegetables in vinegar, oil, or brine"
 04.2.3,E 101,Riboflavins,quantum satis,,only preserves of red fruit,Canned or bottled fruit and vegetables
-04.2.3,E 120,"Cochineal, Carminic acid, Carmines",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Canned or bottled fruit and vegetables
+04.2.3,"
+                           
+                         E 120","Carminic acid, Carmine ",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Canned or bottled fruit and vegetables
 04.2.3,E 122,"Azorubine, Carmoisine",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Canned or bottled fruit and vegetables
 04.2.3,E 129,Allura Red AG,200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Canned or bottled fruit and vegetables
 04.2.3,E 131,Patent Blue V,200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Canned or bottled fruit and vegetables
@@ -547,8 +561,12 @@ Period of application:
 04.2.4.1,E 101,Riboflavins,quantum satis,,Only seaweed based fish roe analogues,Fruit and vegetable preparations excluding compote
 04.2.4.1,E 104,Quinoline Yellow,30,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",Only mostarda di frutta,Fruit and vegetable preparations excluding compote
 04.2.4.1,E 110,Sunset Yellow FCF/Orange Yellow S,35,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",Only mostarda di frutta,Fruit and vegetable preparations excluding compote
-04.2.4.1,E 120,"Cochineal, Carminic acid, Carmines",100,,Only seaweed based fish roe analogues,Fruit and vegetable preparations excluding compote
-04.2.4.1,E 120,"Cochineal, Carminic acid, Carmines",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Fruit and vegetable preparations excluding compote
+04.2.4.1,"
+                           
+                         E 120","Carminic acid, Carmine ",100,,Only seaweed based fish roe analogues,Fruit and vegetable preparations excluding compote
+04.2.4.1,"
+                           
+                         E 120","Carminic acid, Carmine ",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Fruit and vegetable preparations excluding compote
 04.2.4.1,E 122,"Azorubine, Carmoisine",200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Fruit and vegetable preparations excluding compote
 04.2.4.1,E 124,"Ponceau 4R, Cochineal Red A",20,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",Only mostarda di frutta,Fruit and vegetable preparations excluding compote
 04.2.4.1,E 129,Allura Red AG,200,"Maximum individually or for the combination of E 120, E 122, E 129, E 131 and E 133",only preserves of red fruit,Fruit and vegetable preparations excluding compote
@@ -641,10 +659,14 @@ Period of application:
 04.2.5.1,E 969,Advantame,10,,only energy-reduced jams jellies and marmalades,Extra jam and extra jelly as defined by Directive 2001/113/EC
 04.2.5.2,Group IV,Polyols,quantum satis,,only energy-reduced or with no added sugar,"Jam, jellies and marmalades and sweetened chestnut puree as defined by Directive 2001/113/EC"
 04.2.5.2,E 100,Curcumin,quantum satis,,except chestnut purée,"Jam, jellies and marmalades and sweetened chestnut puree as defined by Directive 2001/113/EC"
-04.2.5.2,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b","except chestnut puree
+04.2.5.2,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b","except chestnut puree
  Period of application:
  until 31 July 2014","Jam, jellies and marmalades and sweetened chestnut puree as defined by Directive 2001/113/EC"
-04.2.5.2,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b ; Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","except chestnut puree
+04.2.5.2,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b ; Maximum limit for aluminium coming from aluminium lakes of ","except chestnut puree
  Period of application:
  from 1 August 2014","Jam, jellies and marmalades and sweetened chestnut puree as defined by Directive 2001/113/EC"
 04.2.5.2,E 140,"Chlorophylls, Chlorophyllins",quantum satis,,except chestnut purée,"Jam, jellies and marmalades and sweetened chestnut puree as defined by Directive 2001/113/EC"
@@ -702,7 +724,9 @@ Period of application:
 04.2.5.3,Group II,Colours at quantum satis,,,except crème de pruneaux,Other similar fruit or vegetable spreads
 04.2.5.3,Group IV,Polyols,quantum satis,,only energy-reduced or with no added sugar,Other similar fruit or vegetable spreads
 04.2.5.3,E 100,Curcumin,quantum satis,,except crème de pruneaux,Other similar fruit or vegetable spreads
-04.2.5.3,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b",except crème de pruneaux,Other similar fruit or vegetable spreads
+04.2.5.3,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b",except crème de pruneaux,Other similar fruit or vegetable spreads
 04.2.5.3,E 142,Green S,100,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b",except crème de pruneaux,Other similar fruit or vegetable spreads
 04.2.5.3,E 160d,Lycopene,10,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b",except crème de pruneaux,Other similar fruit or vegetable spreads
 04.2.5.3,E 161b,Lutein,100,"Maximum individually or in combination with E 120, E 142, E 160d and E 161b",except crème de pruneaux,Other similar fruit or vegetable spreads
@@ -1133,7 +1157,9 @@ Period of application:
 06.3,Group I,Additives,,,,Breakfast cereals
 06.3,Group II,Colours at quantum satis,quantum satis,,"only breakfast cereals other than extruded, puffed and/or fruit-flavoured breakfast cereals",Breakfast cereals
 06.3,Group IV,Polyols,quantum satis,,"only breakfast cereals or cereal-based products, energy-reduced or with no added sugar",Breakfast cereals
-06.3,E 120,"Cochineal, Carminic acid, Carmines",200,"E 120, E 162 and E 163 may be added individually or in combination",only fruit-flavoured breakfast cereals,Breakfast cereals
+06.3,"
+                           
+                         E 120","Carminic acid, Carmine ",200,"E 120, E 162 and E 163 may be added individually or in combination",only fruit-flavoured breakfast cereals,Breakfast cereals
 06.3,E 150c,Ammonia caramel,quantum satis,,only extruded puffed and or fruit-flavoured breakfast cereals,Breakfast cereals
 06.3,E 160a,Carotenes,quantum satis,,only extruded puffed and or fruit-flavoured breakfast cereals,Breakfast cereals
 06.3,E 160b,"Annatto, Bixin, Norbixin",25,,only extruded puffed and or fruit-flavoured breakfast cereals,Breakfast cereals
@@ -1199,7 +1225,6 @@ Period of application:
 06.6,E 160b,"Annatto, Bixin, Norbixin",20,,only batters for coating,Batters
 06.6,E 160d,Lycopene,30,,only batters for coating,Batters
 06.6,E 200-202,Sorbic acid - potassium sorbate,2 000,The additives may be added individually or in combination ; The maximum level is applicable to the sum and the levels are expressed as the free acid,,Batters
-06.6,E 200-203,Sorbic acid - sorbates,2 000,The additives may be added individually or in combination ; The maximum level is applicable to the sum and the levels are expressed as the free acid,,Batters
 06.6,E 338-452,"Phosphoric acid - phosphates - di-, tri- and polyphosphates",12 000,The additives may be added individually or in combination ; The maximum level is expressed as P2O5,,Batters
 06.6,E 450 (ix),Magnesium dihydrogen diphosphate,12 000,The maximum level is expressed as P2O5 ; The total amount of phosphates shall not exceed the maximum level for E 338 - 452,,Batters
 06.6,E 900,Dimethyl polysiloxane,10,,,Batters
@@ -1262,7 +1287,7 @@ Period of application:
 07.2,Group II,Colours at quantum satis,quantum satis,,,Fine bakery wares
 07.2,Group III,Colours with combined maximum limit,200,The quantities of each of the colours E 122 and E 155 may not exceed 50 mg/kg or mg/l,"Period of application:
  until 31 July 2014",Fine bakery wares
-07.2,Group III,Colours with combined maximum limit,200,"The quantities of each of the colours E 122 and E 155 may not exceed 50 mg/kg or mg/l ; Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22 (1): (g) of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013","Period of application:
+07.2,Group III,Colours with combined maximum limit,200,The quantities of each of the colours E 122 and E 155 may not exceed 50 mg/kg or mg/l ; Maximum limit for aluminium coming from aluminium lakes of ,"Period of application:
  from 1 August 2014",Fine bakery wares
 07.2,Group IV,Polyols,quantum satis,,only energy-reduced or with no added sugar,Fine bakery wares
 07.2,E 160b,"Annatto, Bixin, Norbixin",10,,,Fine bakery wares
@@ -1313,7 +1338,9 @@ Period of application:
 08.1,E 133,Brilliant Blue FCF,quantum satis,,only for the purpose of health marking,"Fresh meat, excluding meat preparations as defined by Regulation (EC) No 853/2004"
 08.1,E 155,Brown HT,quantum satis,,only for the purpose of health marking,"Fresh meat, excluding meat preparations as defined by Regulation (EC) No 853/2004"
 08.2,E 100,Curcumin,20,,"only merguez type products, salsicha fresca, butifarra fresca, longaniza fresca and chorizo fresco",Meat preparations as defined by Regulation (EC) No 853/2004
-08.2,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","only breakfast sausages with a minimum cereal content of 6 %, burger meat with a minimum vegetable and/or cereal content of 4 % mixed within the meat (in these products, the meat is minced in such a way so that the muscle and fat tissue are completely dispersed, so that fibre makes an emulsion with the fat, giving those products their typical appearance), merguez type products,salsicha fresca, mici, butifarra fresca, longaniza fresca, chorizo fresco, cevapcici and pljeskavice",Meat preparations as defined by Regulation (EC) No 853/2004
+08.2,"
+                           
+                         E 120","Carminic acid, Carmine ",100,Maximum limit for aluminium coming from aluminium lakes of ,"only breakfast sausages with a minimum cereal content of 6 %, burger meat with a minimum vegetable and/or cereal content of 4 % mixed within the meat (in these products, the meat is minced in such a way so that the muscle and fat tissue are completely dispersed, so that fibre makes an emulsion with the fat, giving those products their typical appearance), merguez type products,salsicha fresca, mici, butifarra fresca, longaniza fresca, chorizo fresco, cevapcici and pljeskavice",Meat preparations as defined by Regulation (EC) No 853/2004
 08.2,E 129,Allura Red AG,25,,"only breakfast sausages with a minimum cereal content of 6 % and burger meat with a minimum vegetable and/or cereal content of 4 % mixed within the meat; In these products, the meat is minced in such a way so that the muscle and fat tissue are completely dispersed, so that fibre makes an emulsion with the fat, giving those products their typical appearance",Meat preparations as defined by Regulation (EC) No 853/2004
 08.2,E 150a-d,Caramels,quantum satis,,"only breakfast sausages with a minimum cereal content of 6 %, burger meatwith a minimum vegetable and/or cereal content of 4 % mixed within the meat (in these products, the meat is minced in such a way so that the muscle and fat tissue are completely dispersed, so that fibre makes an emulsion with the fat, giving those products their typical appearance), merguez type products, salsicha fresca, mici, butifarra fresca, longaniza frescaand chorizo fresco",Meat preparations as defined by Regulation (EC) No 853/2004
 08.2,E 160c,Paprika extract,10,,"only merguez type products, salsicha fresca, butifarra fresca, longaniza fresca, chorizo fresco, bifteki, soutzoukaki and kebap",Meat preparations as defined by Regulation (EC) No 853/2004
@@ -1359,17 +1386,27 @@ Period of application:
 08.3.1,E 101,Riboflavins,quantum satis,,only pasturmas,Non-heat-treated meat products
 08.3.1,E 110,Sunset yellow FCF/Orange Yellow S,15,,only sobrasada,Non-heat-treated meat products
 08.3.1,E 120,"Carminic acid, Carmine",50,,"only the following traditional salted pork offal and beef specialties: groin de porc à la créole, queue de porc à la créole, pied de porc à la créole and paleron de bœuf à la créole. These products are consumed after desalting and cooking.",Non-heat-treated meat products
-08.3.1,E 120,"Cochineal, Carminic acid, Carmines",100,,"only sausages
+08.3.1,"
+                           
+                         E 120","Carminic acid, Carmine ",100,,"only sausages
  Period of application:
  until 31 July 2014",Non-heat-treated meat products
-08.3.1,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","only sausages
+08.3.1,"
+                           
+                         E 120","Carminic acid, Carmine ",100,Maximum limit for aluminium coming from aluminium lakes of ,"only sausages
  Period of application:
  from 1 August 2014",Non-heat-treated meat products
-08.3.1,E 120,"Cochineal, Carminic acid, Carmines",200,,only chorizo sausage/salchichon,Non-heat-treated meat products
-08.3.1,E 120,"Cochineal, Carminic acid, Carmines",quantum satis,,"only pasturmas
+08.3.1,"
+                           
+                         E 120","Carminic acid, Carmine ",200,,only chorizo sausage/salchichon,Non-heat-treated meat products
+08.3.1,"
+                           
+                         E 120","Carminic acid, Carmine ",quantum satis,,"only pasturmas
 Period of application:
  until 31 July 2014",Non-heat-treated meat products
-08.3.1,E 120,"Cochineal, Carminic acid, Carmines",quantum satis,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","only pasturmas
+08.3.1,"
+                           
+                         E 120","Carminic acid, Carmine ",quantum satis,Maximum limit for aluminium coming from aluminium lakes of ,"only pasturmas
 Period of application:
  from 1 August 2014",Non-heat-treated meat products
 08.3.1,E 124,"Ponceau 4R, Cochineal Red A",50,,only chorizo sausage/salchichon,Non-heat-treated meat products
@@ -1393,10 +1430,14 @@ Period of application:
 08.3.1,E 959,Neohesperidine DC,5,,as flavour enhancer only,Non-heat-treated meat products
 08.3.2,Group I,Additives,,,"except foie gras, foie gras entier, blocs de foie gras, Libamáj, libamáj egészben, libamáj tömbben",Heat-treated meat products
 08.3.2,E 100,Curcumin,20,,"only sausages, pâtés and terrines",Heat-treated meat products
-08.3.2,E 120,"Cochineal, Carminic acid, Carmines",100,,"only sausages, patés and terrines
+08.3.2,"
+                           
+                         E 120","Carminic acid, Carmine ",100,,"only sausages, patés and terrines
  Period of application:
  until 31 July 2014",Heat-treated meat products
-08.3.2,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","only sausages, patés and terrines
+08.3.2,"
+                           
+                         E 120","Carminic acid, Carmine ",100,Maximum limit for aluminium coming from aluminium lakes of ,"only sausages, patés and terrines
  Period of application:
  from 1 August 2014",Heat-treated meat products
 08.3.2,E 129,Allura Red AG,25,,only luncheon meat,Heat-treated meat products
@@ -1433,21 +1474,25 @@ Period of application:
 08.3.3,Group III,Colours with combined maximum limit,500,,"only decorations and coatings except edible external coating of pasturmas
  Period of application:
  until 31 July 2014",Casings and coatings and decorations for meat
-08.3.3,Group III,Colours with combined maximum limit,500,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 10 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","only decorations and coatings except edible external coating of pasturmas
+08.3.3,Group III,Colours with combined maximum limit,500,Maximum limit for aluminium coming from aluminium lakes of ,"only decorations and coatings except edible external coating of pasturmas
  Period of application:
  from 1 August 2014",Casings and coatings and decorations for meat
 08.3.3,Group III,Colours with combined maximum limit,quantum satis,,"only edible casings
  Period of application:
  Until 31 July 2014",Casings and coatings and decorations for meat
-08.3.3,Group III,Colours with combined maximum limit,quantum satis,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 10 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","only edible casings
+08.3.3,Group III,Colours with combined maximum limit,quantum satis,Maximum limit for aluminium coming from aluminium lakes of ,"only edible casings
  Period of application:
  From 1 August 2014",Casings and coatings and decorations for meat
 08.3.3,E 100,Curcumin,quantum satis,,only edible external coating of pasturmas,Casings and coatings and decorations for meat
 08.3.3,E 101,Riboflavins,quantum satis,,only edible external coating of pasturmas,Casings and coatings and decorations for meat
-08.3.3,E 120,"Cochineal, Carminic acid, Carmines",quantum satis,,"only edible external coating of pasturmas
+08.3.3,"
+                           
+                         E 120","Carminic acid, Carmine ",quantum satis,,"only edible external coating of pasturmas
  Period of application:
  until 31 July 2014",Casings and coatings and decorations for meat
-08.3.3,E 120,"Cochineal, Carminic acid, Carmines",quantum satis,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 10 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of this Regulation, that limit shall apply from 1 February 2013","only edible external coating of pasturmas
+08.3.3,"
+                           
+                         E 120","Carminic acid, Carmine ",quantum satis,Maximum limit for aluminium coming from aluminium lakes of ,"only edible external coating of pasturmas
  Period of application:
  from 1 August 2014",Casings and coatings and decorations for meat
 08.3.3,E 160b,"Annatto, Bixin, Norbixin",20,,,Casings and coatings and decorations for meat
@@ -1528,12 +1573,14 @@ Period of application:
 09.1.2,E 586,4-Hexylresorcinol,2,As a residue in the meat,"Only fresh, frozen or deep-frozen crustaceans",Unprocessed molluscs and crustaceans
 09.2,Group I,Additives,,,,Processed fish and fishery products including mollusks and crustaceans
 09.2,Group II,Colours at quantum satis,quantum satis,,only surimi and similar products and salmon substitutes,Processed fish and fishery products including mollusks and crustaceans
-09.2,Group III,Colours with combined maximum limit,500,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 4 mg/kg. As a derogation to this rule, the maximum limit only for salmon substitutes shall be 5,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013",only surimi and similar products and salmon substitutes,Processed fish and fishery products including mollusks and crustaceans
+09.2,Group III,Colours with combined maximum limit,500,Maximum limit for aluminium coming from aluminium lakes of ,only surimi and similar products and salmon substitutes,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 100,Curcumin,100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 142, E 151, E 160e, E 161b",only fish paste and crustacean paste,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 101,Riboflavins,quantum satis,,only fish paste and crustacean paste,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 102,Tartrazine,100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 142, E 151, E 160e, E 161b",only fish paste and crustacean paste,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 110,Sunset Yellow FCF/Orange Yellow S,200,"The total quantity of E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",only in salmon substitutes based on Theragra chalcogramma and Pollachius virens,Processed fish and fishery products including mollusks and crustaceans
-09.2,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 142, E 151, E 160e, E 161b ; Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 2 mg/kg only in fish paste. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013",only fish paste and crustacean paste,Processed fish and fishery products including mollusks and crustaceans
+09.2,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 142, E 151, E 160e, E 161b ; Maximum limit for aluminium coming from aluminium lakes of ",only fish paste and crustacean paste,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 122,"Azorubine, Carmoisine",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 142, E 151, E 160e, E 161b",only fish paste and crustacean paste,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 124,"Ponceau 4R, Cochineal Red A",200,"The total quantity of E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",only in salmon substitutes based on Theragra chalcogramma and Pollachius virens,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 140,"Chlorophylls, Chlorophyllins",quantum satis,,only fish paste and crustacean paste,Processed fish and fishery products including mollusks and crustaceans
@@ -1554,7 +1601,9 @@ Period of application:
 09.2,E 100,Curcumin,250,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 129, E 142, E 151, E 160e, E 161b",only precooked crustacean,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 101,Riboflavins,quantum satis,,only precooked crustacean,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 102,Tartrazine,250,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 129, E 142, E 151, E 160e, E 161b",only precooked crustacean,Processed fish and fishery products including mollusks and crustaceans
-09.2,E 120,"Cochineal, Carminic acid, Carmines",250,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 129, E 142, E 151, E 160e, E 161b",only precooked crustacean,Processed fish and fishery products including mollusks and crustaceans
+09.2,"
+                           
+                         E 120","Carminic acid, Carmine ",250,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 129, E 142, E 151, E 160e, E 161b",only precooked crustacean,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 122,"Azorubine, Carmoisine",250,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 129, E 142, E 151, E 160e, E 161b",only precooked crustacean,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 129,Allura Red AG,250,"Maximum individually or for the combination of E 100, E 102, E 120, E 122, E 129, E 142, E 151, E 160e, E 161b",only precooked crustacean,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 140,"Chlorophylls, Chlorophyllins",quantum satis,,only precooked crustacean,Processed fish and fishery products including mollusks and crustaceans
@@ -1574,7 +1623,9 @@ Period of application:
 09.2,E 100,Curcumin,100,"Maximum individually or for the combination of E 100, E 102, E 120, E 151, E 160e",only smoked fish,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 101,Riboflavins,quantum satis,,only smoked fish,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 102,Tartrazine,100,"Maximum individually or for the combination of E 100, E 102, E 120, E 151, E 160e",only smoked fish,Processed fish and fishery products including mollusks and crustaceans
-09.2,E 120,"Cochineal, Carminic acid, Carmines",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 151, E 160e",only smoked fish,Processed fish and fishery products including mollusks and crustaceans
+09.2,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"Maximum individually or for the combination of E 100, E 102, E 120, E 151, E 160e",only smoked fish,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 141,Copper complexes of chlorophylls and chlorophyllins,quantum satis,,only smoked fish,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 151,Brilliant Black PN,100,"Maximum individually or for the combination of E 100, E 102, E 120, E 151, E 160e",only smoked fish,Processed fish and fishery products including mollusks and crustaceans
 09.2,E 153,Vegetable carbon,quantum satis,,only smoked fish,Processed fish and fishery products including mollusks and crustaceans
@@ -1626,7 +1677,7 @@ Period of application:
 09.2,E 385,Calcium disodium ethylene diamine tetra-acetate (Calcium disodium EDTA),75,,"only canned and bottled fish, crustaceans and molluscs",Processed fish and fishery products including mollusks and crustaceans
 09.3,Group I,Additives,,,only processed fish roe,Fish roe
 09.3,Group II,Colours at quantum satis,quantum satis,,except Sturgeons’ eggs (Caviar),Fish roe
-09.3,Group III,Colours with combined maximum limit,300,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 3 mg/kg. As a derogation to this rule, the maximum limit only for pasteurised products shall be 50 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013",except Sturgeons' eggs (Caviar),Fish roe
+09.3,Group III,Colours with combined maximum limit,300,Maximum limit for aluminium coming from aluminium lakes of ,except Sturgeons' eggs (Caviar),Fish roe
 09.3,E 104,Quinoline Yellow,200,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",except Sturgeons’ eggs (Caviar),Fish roe
 09.3,E 110,Sunset Yellow FCF/Orange Yellow S,200,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",except Sturgeons’ eggs (Caviar),Fish roe
 09.3,E 123,Amaranth,30,,"except Sturgeons' eggs (Caviar)
@@ -1914,7 +1965,7 @@ Period of application:
 12.6,Group III,Colours with combined maximum limit,500,,"including pickles, relishes, chutney and picalilli; excluding tomato-based sauces
  Period of application:
  until 31 July 2014",Sauces
-12.6,Group III,Colours with combined maximum limit,500,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 10 mg/kg. No other aluminium lakes may be used. For the puroposes of Article 22 (1): (g) of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013","including pickles, relishes, chutney and picalilli; excluding tomato-based sauces
+12.6,Group III,Colours with combined maximum limit,500,Maximum limit for aluminium coming from aluminium lakes of ,"including pickles, relishes, chutney and picalilli; excluding tomato-based sauces
  Period of application:
  from 1 August 2014",Sauces
 12.6,Group IV,Polyols,quantum satis,,,Sauces
@@ -2170,7 +2221,7 @@ Period of application:
 13.1.5.2,E 1450,Starch sodium octenyl succinate,20 000,,,Dietary foods for babies and young children for special medical purposes as defined in Directive 1999/21/EC
 13.2,Group I,Additives,,,,Dietary foods for special medical purposes defined in Directive 1999/21/EC (excluding products from food category 13.1.5)
 13.2,Group II,Colours at quantum satis,quantum satis,,,Dietary foods for special medical purposes defined in Directive 1999/21/EC (excluding products from food category 13.1.5)
-13.2,Group III,Colours with combined maximum limit,50,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 3 mg/kg only in liquid heat-treated products. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013",,Dietary foods for special medical purposes defined in Directive 1999/21/EC (excluding products from food category 13.1.5)
+13.2,Group III,Colours with combined maximum limit,50,Maximum limit for aluminium coming from aluminium lakes of ,,Dietary foods for special medical purposes defined in Directive 1999/21/EC (excluding products from food category 13.1.5)
 13.2,Group IV,Polyols,quantum satis,,,Dietary foods for special medical purposes defined in Directive 1999/21/EC (excluding products from food category 13.1.5)
 13.2,E 104,Quinoline Yellow,10,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",,Dietary foods for special medical purposes defined in Directive 1999/21/EC (excluding products from food category 13.1.5)
 13.2,E 110,Sunset Yellow FCF/Orange Yellow S,10,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",,Dietary foods for special medical purposes defined in Directive 1999/21/EC (excluding products from food category 13.1.5)
@@ -2427,7 +2478,7 @@ Period of application:
 14.2.5,E 473-474,Sucrose esters of fatty acids - sucroglycerides,5 000,"Ingoing amount, residues not detectable",,Mead
 14.2.6,Group I,Additives,,,"except whisky or whiskey; E 420, E421, E 953, E965, E 966, E 967 and E 968 may not be used except in liqueurs",Spirit drinks as defined in Regulation (EC) No 110/2008
 14.2.6,Group II,Colours at quantum satis,quantum satis,,"except: spirit drinks as defined in Article 5(1) and sales denominations listed in Annex II, paragraphs 1-14 of Regulation (EC) No 110/2008 and spirits (preceded by the name of the fruit) obtained by maceration and distillation, Geist (with the name of the fruit or the raw material used), London Gin, Sambuca, Maraschino, Marrasquino or Maraskino and Mistrà",Spirit drinks as defined in Regulation (EC) No 110/2008
-14.2.6,Group III,Colours with combined maximum limit,200,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013","except: spirit drinks as defined in Article 5(1) and sales denominations listed in Annex II, paragraphs 1-14 of Regulation (EC) No 110/2008 and spirits (preceded by the name of the fruit) obtained by maceration and distillation, Geist (with the name of the fruit or the raw material used), London Gin, Sambuca, Maraschino, Marrasquino or Maraskino and Mistrà",Spirit drinks as defined in Regulation (EC) No 110/2008
+14.2.6,Group III,Colours with combined maximum limit,200,Maximum limit for aluminium coming from aluminium lakes of ,"except: spirit drinks as defined in Article 5(1) and sales denominations listed in Annex II, paragraphs 1-14 of Regulation (EC) No 110/2008 and spirits (preceded by the name of the fruit) obtained by maceration and distillation, Geist (with the name of the fruit or the raw material used), London Gin, Sambuca, Maraschino, Marrasquino or Maraskino and Mistrà",Spirit drinks as defined in Regulation (EC) No 110/2008
 14.2.6,E 104,Quinoline Yellow,180,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III","except: spirit drinks as defined in Article 5(1) and sales denominations listed in Annex II, paragraphs 1-14 of Regulation (EC) No 110/2008 and spirits (preceded by the name of the fruit) obtained by maceration and distillation, Geist (with the name of the fruit or the raw material used), London Gin, Sambuca, Maraschino, Marrasquino or Maraskino and Mistrà",Spirit drinks as defined in Regulation (EC) No 110/2008
 14.2.6,E 110,Sunset Yellow FCF/Orange Yellow S,100,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III","except: spirit drinks as defined in Article 5(1) and sales denominations listed in Annex II, paragraphs 1-14 of Regulation (EC) No 110/2008 and spirits (preceded by the name of the fruit) obtained by maceration and distillation, Geist (with the name of the fruit or the raw material used), London Gin, Sambuca, Maraschino, Marrasquino or Maraskino and Mistrà",Spirit drinks as defined in Regulation (EC) No 110/2008
 14.2.6,E 123,Amaranth,30,,"except: spirit drinks as defined in Article 5(1) and sales denominations listed in Annex II, paragraphs 1-14 of Regulation (EC) No 110/2008 and spirits (preceded by the name of the fruit) obtained by maceration and distillation, Geist (with the name of the fruit or the raw material used), London Gin, Sambuca, Maraschino, Marrasquino or Maraskino and Mistrà",Spirit drinks as defined in Regulation (EC) No 110/2008
@@ -2451,7 +2502,9 @@ Period of application:
 14.2.7.1,E 102,Tartrazine,100,"In americano E 100, E 101, E 102, E 104, E 120, E 122, E 123, E 124 are authorised individually or in combination ; In bitter vino E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination","only americano, bitter vino",Aromatised wines
 14.2.7.1,E 104,Quinoline Yellow,50,"In americano E 100, E 101, E 102, E 104, E 120, E 122, E 123, E 124 are authorised individually or in combination ; In bitter vino E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination","only americano, bitter vino",Aromatised wines
 14.2.7.1,E 110,Sunset Yellow FCF/Orange Yellow S,50,"In bitter vino E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination",only bitter vino,Aromatised wines
-14.2.7.1,E 120,"Cochineal, Carminic acid, Carmines",100,"In americano E 100, E 101, E 102, E 104, E 120, E 122, E 123, E 124 are authorised individually or in combination ; In bitter vino E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination ; Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013","only americano, bitter vino",Aromatised wines
+14.2.7.1,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"In americano E 100, E 101, E 102, E 104, E 120, E 122, E 123, E 124 are authorised individually or in combination ; In bitter vino E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination ; Maximum limit for aluminium coming from aluminium lakes of ","only americano, bitter vino",Aromatised wines
 14.2.7.1,E 122,"Azorubine, Carmoisine",100,"In americano E 100, E 101, E 102, E 104, E 120, E 122, E 123, E 124 are authorised individually or in combination ; In bitter vino E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination","only americano, bitter vino",Aromatised wines
 14.2.7.1,E 123,Amaranth,100,"In americano E 100, E 101, E 102, E 104, E 120, E 122, E 123, E 124 are authorised individually or in combination ; In bitter vino E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination","only americano, bitter vino",Aromatised wines
 14.2.7.1,E 124,"Ponceau 4R, Cochineal Red A",50,"In americano E 100, E 101, E 102, E 104, E 120, E 122, E 123, E 124 are authorised individually or in combination ; In bitter vino E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination","only americano, bitter vino",Aromatised wines
@@ -2469,7 +2522,9 @@ Period of application:
 14.2.7.2,E 102,Tartrazine,100,"In bitter soda E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination",only bitter soda,Aromatised wine-based drinks
 14.2.7.2,E 104,Quinoline Yellow,50,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",only bitter soda,Aromatised wine-based drinks
 14.2.7.2,E 110,Sunset Yellow FCF/Orange Yellow S,50,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",only bitter soda,Aromatised wine-based drinks
-14.2.7.2,E 120,"Cochineal, Carminic acid, Carmines",100,"In bitter soda E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination ; Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013",only bitter soda,Aromatised wine-based drinks
+14.2.7.2,"
+                           
+                         E 120","Carminic acid, Carmine ",100,"In bitter soda E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination ; Maximum limit for aluminium coming from aluminium lakes of ",only bitter soda,Aromatised wine-based drinks
 14.2.7.2,E 122,"Azorubine, Carmoisine",100,"In bitter soda E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination",only bitter soda,Aromatised wine-based drinks
 14.2.7.2,E 123,Amaranth,100,"In bitter soda E 100, E 101, E 102, E 104, E 110, E 120, E 122, E 123, E 124, E 129 are authorised individually or in combination",only bitter soda,Aromatised wine-based drinks
 14.2.7.2,E 124,"Ponceau 4R, Cochineal Red A",50,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",only bitter soda,Aromatised wine-based drinks
@@ -2482,7 +2537,7 @@ Period of application:
 14.2.7.2,E 473-474,Sucrose esters of fatty acids - sucroglycerides,5 000,The additives may be added individually or in combination,,Aromatised wine-based drinks
 14.2.7.3,Group I,Additives,,,"E 420, E421, E 953, E965, E 966, E 967 and E 968 may not be used",Aromatised wine-product cocktails
 14.2.7.3,Group II,Colours at quantum satis,quantum satis,,,Aromatised wine-product cocktails
-14.2.7.3,Group III,Colours with combined maximum limit,200,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013",,Aromatised wine-product cocktails
+14.2.7.3,Group III,Colours with combined maximum limit,200,Maximum limit for aluminium coming from aluminium lakes of ,,Aromatised wine-product cocktails
 14.2.7.3,E 104,Quinoline Yellow,50,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",,Aromatised wine-product cocktails
 14.2.7.3,E 110,Sunset Yellow FCF/Orange Yellow S,50,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",,Aromatised wine-product cocktails
 14.2.7.3,E 124,"Ponceau 4R, Cochineal Red A",50,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",,Aromatised wine-product cocktails
@@ -2494,7 +2549,7 @@ Period of application:
 14.2.7.3,E 473-474,Sucrose esters of fatty acids - sucroglycerides,5 000,The additives may be added individually or in combination,,Aromatised wine-product cocktails
 14.2.8,Group I,Additives,,,"E 420, E421, E 953, E965, E 966, E 967 and E 968 may not be used",Other alcoholic drinks including mixtures of alcoholic drinks with non-alcoholic drinks and spirits with less than 15 % of alcohol
 14.2.8,Group II,Colours at quantum satis,quantum satis,,,Other alcoholic drinks including mixtures of alcoholic drinks with non-alcoholic drinks and spirits with less than 15 % of alcohol
-14.2.8,Group III,Colours with combined maximum limit,200,"Maximum limit for aluminium coming from aluminium lakes of E 120 cochineal, carminic acid, carmines 1,5 mg/kg. No other aluminium lakes may be used. For the purposes of Article 22(1)(g): of Regulation (EC) No 1333/2008 that limit shall apply from 1 February 2013","only alcoholic drinks with less than 15 % of alcohol and nalewka na winie owocowym, aromatyzowana nalewka na winie owocowym, nalewka na winie z soku winogronowego, aromatyzowana nalewka na winie z soku winogronowego, napój winny owocowy lub miodowy, aromatyzowany napój winny owocowy lub miodowy, wino owocowe niskoalkoholowe and aromatyzowane wino owocowe niskoalkoholowe",Other alcoholic drinks including mixtures of alcoholic drinks with non-alcoholic drinks and spirits with less than 15 % of alcohol
+14.2.8,Group III,Colours with combined maximum limit,200,Maximum limit for aluminium coming from aluminium lakes of ,"only alcoholic drinks with less than 15 % of alcohol and nalewka na winie owocowym, aromatyzowana nalewka na winie owocowym, nalewka na winie z soku winogronowego, aromatyzowana nalewka na winie z soku winogronowego, napój winny owocowy lub miodowy, aromatyzowany napój winny owocowy lub miodowy, wino owocowe niskoalkoholowe and aromatyzowane wino owocowe niskoalkoholowe",Other alcoholic drinks including mixtures of alcoholic drinks with non-alcoholic drinks and spirits with less than 15 % of alcohol
 14.2.8,E 104,Quinoline Yellow,180,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",only alcoholic drinks with less than 15 % of alcohol,Other alcoholic drinks including mixtures of alcoholic drinks with non-alcoholic drinks and spirits with less than 15 % of alcohol
 14.2.8,E 110,Sunset Yellow FCF/Orange Yellow S,100,"The total quantity of E 104, E 110, E 124 and the colours in Group III shall not exceed the maximum listed for Group III",only alcoholic drinks with less than 15 % of alcohol,Other alcoholic drinks including mixtures of alcoholic drinks with non-alcoholic drinks and spirits with less than 15 % of alcohol
 14.2.8,E 123,Amaranth,30,,"only alcoholic drinks with less than 15 % of alcohol and nalewka na winie owocowym, aromatyzowana nalewka na winie owocowym, nalewka na winie z soku winogronowego, aromatyzowana nalewka na winie z soku winogronowego, napój winny owocowy lub miodowy, aromatyzowany napój winny owocowy lub miodowy, wino owocowe niskoalkoholowe and aromatyzowane wino owocowe niskoalkoholowe",Other alcoholic drinks including mixtures of alcoholic drinks with non-alcoholic drinks and spirits with less than 15 % of alcohol

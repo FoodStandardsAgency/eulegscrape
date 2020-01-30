@@ -7,6 +7,7 @@ library(stringr)
 library(readr)
 library(purrr)
 library(eulegscrape)
+library(assertthat)
 
 url <- read_csv("./reference/legislation-urls.csv") %>%
   filter(product == "additives") %>%
@@ -15,13 +16,19 @@ url <- read_csv("./reference/legislation-urls.csv") %>%
 
 # category names (for later merging into table)
 
-categories <- firstclean(gettable(url, 36)) %>%
+table <- gettable(url, 36)
+assert_that(ncol(table) == 2 & nrow(table) > 150, msg = "additives categories - probably not grabbing the right table")
+
+categories <- firstclean(table) %>%
   filter(X1 != X2) %>%
   mutate(X1 = gsub("\\.$", "", X1)) %>%
   slice(-1) %>%
   select(`Category number` = X1, `Category name` = X2)
 
 # ANNEX II part E
+
+table <- gettable(url, 37)
+assert_that(ncol(table) == 6 & nrow(table) > 4000, msg = "additives Annex II part E - probably not grabbing the right table")
 
 addtable <- firstclean(gettable(url, 37)) %>%
   # shift along rows
@@ -86,7 +93,11 @@ write_excel_csv(additives, "./csv/additives/additives.csv")
 
 # ANNEX III
 
-additives2 <- lapply(c(38:43), function(n) firstclean(gettable(url, n)) %>%
+tables <- map(c(38:43), gettable, url = url)
+assert_that(length(tables) == 6, msg = "additives annex III - not getting all the tables")
+map(tables, function(x) assert_that(ncol(x) >= 4, msg = "additives annex III - probably not the right tables"))
+
+additives2 <- map(tables, function(x) firstclean(x) %>%
                      filter(X1!=X2) %>%
                      mutate(X3 = str_replace(X3, "^-", "    ")) %>%
                      mutate_all(., ~extraspace(.)) %>%

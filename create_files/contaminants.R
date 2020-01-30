@@ -8,6 +8,7 @@ library(purrr)
 library(readr)
 library(eulegscrape)
 library(rvest)
+library(assertthat)
 
 url <- read_csv("./reference/legislation-urls.csv") %>%
   filter(product == "contaminants") %>%
@@ -19,6 +20,7 @@ contam <- read_html(url)
 # get footnotes
 
 fn <- contam %>% html_nodes(".footnote")
+assert_that(length(fn) >= 80, msg = "contaminants - not getting all the footnotes?")
 
 fnnumbers <- fn %>%
   map(., html_nodes, "a") %>%
@@ -44,6 +46,8 @@ fnlinks <- bind_cols(fnumber = fnnumbers, link = fnhrefs, fntext = fntext) %>%
   mutate(link = str_extract(link, "#E[0-9]+")) %>%
   mutate(fnumber = paste0("(",fnumber,")"))
 
+assert_that(ncol(fnlinks) == 3, msg = "contaminants - not picking up footnote info")
+
 # table of footnotes to write out
 
 footnotes <- fnlinks[,3] %>% rename(Footnote = fntext)
@@ -61,13 +65,12 @@ names(linkreplace) <- fnlinks$link
 # swap footnote numbers for links
 # swap links for correct footnote numbers
 
+# function to get table n on the page (different from generic)
 
-ctable <- function(n) {
-  tablehtml <- contam %>%
+getctable <- function(n) {
+  contam %>%
     html_nodes("table") %>%
-    .[n]
-
-  cleantable <- tablehtml %>%
+    .[n] %>%
     html_nodes("tr") %>%
     .[!grepl("ancestor", .)] %>%
     as.character() %>%
@@ -76,16 +79,29 @@ ctable <- function(n) {
     read_html() %>%
     html_table(fill = TRUE) %>%
     .[[1]] %>%
-    as_tibble() %>%
-    firstclean()
+    as_tibble()
+}
 
-  fnnumbers <- tablehtml %>%
+# get the tables and check they are probably the right ones
+
+tables <- map(c(4:12), getctable)
+assert_that(ncol(tables[[1]]) == 4 & nrow(tables[[1]]) > 10, msg = "contaminants - probably starting in the wrong place")
+assert_that(length(tables) == 9, msg = "contaminants - not picking up all the tables")
+
+# function to get footnote numbers that will be swapped in for link names
+
+getfnswap <- function(n) {
+  fnnumbers <- contam %>%
+    html_nodes("table") %>%
+    .[n] %>%
     html_nodes("a") %>%
     map(., html_nodes, ".superscript") %>%
     map(., html_text) %>%
     as.character()
 
-  fnhrefs <- tablehtml %>%
+  fnhrefs <- contam %>%
+    html_nodes("table") %>%
+    .[n] %>%
     html_nodes("a") %>%
     map(., html_attr, "href") %>%
     as.character()
@@ -98,22 +114,36 @@ ctable <- function(n) {
   tableswap <- tablefn$link %>% as.character()
   names(tableswap) <- tablefn$tnumber
 
-  cleantable %>%
-    mutate_all(., ~str_replace_all(., fixed(tableswap))) %>%
+  return(tableswap)
+}
+
+# get the swaps for each table
+
+swaps <- map(c(4:12), getfnswap)
+
+# function to bring it all together
+
+makectable <- function(table, swap) {
+  table %>%
+    firstclean() %>%
+    mutate_all(., ~str_replace_all(., fixed(swap))) %>%
     mutate_all(., ~str_replace_all(., fixed(linkreplace))) %>%
     replace(is.na(.), "")
 }
 
+cleantables <- map2(tables, swaps, function(x,y) makectable(x,y))
+
+
 # section 1: nitrates
 
-nitrate <- ctable(3) %>%
+nitrate <- cleantables[[1]] %>%
   getnames()
 
 write_excel_csv(nitrate, "./csv/contaminants/nitrate.csv")
 
 # section 2: mycotoxins
 
-mycotoxins <- ctable(4) %>%
+mycotoxins <- cleantables[[2]] %>%
   mutate(duplines = ifelse(X3 == X4 & X4 == X5 & !grepl("Maximum level", X4), "1", "")) %>%
   mutate(X4 = ifelse(duplines == 1, "", X4)) %>%
   mutate(X5 = ifelse(duplines == 1, "", X5)) %>%
@@ -125,7 +155,7 @@ write_excel_csv(mycotoxins, "./csv/contaminants/mycotoxins.csv")
 
 # section 3: metals
 
-metals <- ctable(5) %>%
+metals <- cleantables[[3]] %>%
   mutate(X2 = str_replace(X2, "^-", "    ")) %>%
   mutate(X2 = extraspace(X2)) %>%
   getnames()
@@ -134,7 +164,7 @@ write_excel_csv(metals, "./csv/contaminants/metals.csv")
 
 # section 4: 3-monochloropropanediol (3-MCPD) and glycidyl fatty acid esters
 
-mcpd <- ctable(6) %>%
+mcpd <- cleantables[[4]] %>%
   mutate(X3 = extraspace(X3)) %>%
   getnames()
 
@@ -146,7 +176,7 @@ write_excel_csv(mcpd, "./csv/contaminants/mcpd.csv")
 
 limits <- contam %>%
   html_nodes("table") %>%
-  .[7] %>%
+  .[8] %>%
   html_nodes("tr") %>%
   .[2] %>%
   map(., html_nodes, "td") %>%
@@ -154,7 +184,9 @@ limits <- contam %>%
   .[[1]] %>%
   trimws(.)
 
-dioxins <- ctable(7) %>%
+assert_that(length(limits) == 3, msg = "contaminants, not picking up section 5 specific limits")
+
+dioxins <- cleantables[[5]] %>%
   slice(-2) %>%
   add_row(X1 = "",
           X2 = "",
@@ -168,7 +200,7 @@ write_excel_csv(dioxins, "./csv/contaminants/dioxins.csv")
 
 # section 6: Polycyclic aromatic hydrocarbons
 
-poly <- ctable(8) %>%
+poly <- cleantables[[6]] %>%
   mutate_at(vars(X3, X4), ~str_replace_all(str_replace_all(., "\n", "; "), "(\\s){2,}", " ")) %>%
   mutate_at(vars(X2), ~str_replace_all(str_replace_all(., "(\\s){2,}", "; "), "; \\(", " (")) %>%
   getnames()
@@ -177,7 +209,7 @@ write_excel_csv(poly, "./csv/contaminants/poly.csv")
 
 # section 7: Melamine and its structural analogues
 
-melamine <- ctable(9) %>%
+melamine <- cleantables[[7]] %>%
   getnames()
 
 write_excel_csv(melamine, "./csv/contaminants/melamine.csv")
@@ -185,8 +217,8 @@ write_excel_csv(melamine, "./csv/contaminants/melamine.csv")
 # section 8: Inherent plant toxins
 
 
-toxins1 <- ctable(10) %>% slice(-1)
-toxins2 <- ctable(11) %>% mutate_at(vars(X1, X2), ~gsub("^$", NA, .)) %>%
+toxins1 <- cleantables[[8]] %>% slice(-1)
+toxins2 <- cleantables[[9]] %>% mutate_at(vars(X1, X2), ~gsub("^$", NA, .)) %>%
   fill(X1, X2) %>%
   slice(-2)
 toxins <- bind_rows(toxins2, toxins1) %>% arrange(X1) %>% getnames(nrow(.)) %>%

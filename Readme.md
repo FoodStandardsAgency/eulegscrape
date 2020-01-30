@@ -10,9 +10,12 @@ A package of functions and scripts to fetch and clean union lists of regulated p
 
 CSV files with union lists of products and their permitted uses are in the `/csv` folder. These are currently clean and human readable tables of the content described in each section below. Further processing/steps to increase machine readability can be added as required.
 
-R scripts with generic functions are in the `/R` folder.
+The file `update.R` checks to see whether a new consolidated version has been uploaded, and recreates the tables if so. 
+Apart from for feed additives, which needs to be run separately if necessary.
 
 Scripts to produce the CSVs are in `/create_files`
+
+R scripts with generic functions are in the `/R` folder.
 
 The `/reference` folder contains the URL of each piece of legislation (on legislation.gov.uk).
 
