@@ -15,7 +15,8 @@ devtools::load_all()
 
 # web scraping check: not really scraping as such (it's a download) but will still check robots.txt for the feed additives page
 
-rcheck = bow("https://ec.europa.eu/food/safety/animal-feed/feed-additives/eu-register_en")
+rcheck = bow("https://ec.europa.eu/food/safety/animal-feed/feed-additives/eu-register_en",
+             user_agent = "Food Standards Agency https://www.food.gov.uk/about-us/web-scraping-policy-0")
 
 assert_that(is.polite(rcheck) == TRUE, msg = "do not scrape")
 

@@ -14,6 +14,11 @@ url <- read_csv("./reference/legislation-urls.csv") %>%
   .[1,2] %>% as.character() %>%
   geturl()
 
+rcheck = bow(url,
+             user_agent = "Food Standards Agency https://www.food.gov.uk/about-us/web-scraping-policy-0")
+
+assert_that(is.polite(rcheck) == TRUE, msg = "do not scrape")
+
 # category names (for later merging into table)
 
 table <- gettable(url, 36)

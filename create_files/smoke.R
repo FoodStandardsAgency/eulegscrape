@@ -15,6 +15,11 @@ url <- read_csv("./reference/legislation-urls.csv") %>%
   .[1,2] %>% as.character() %>%
   geturl()
 
+rcheck = bow("https://ec.europa.eu/food/safety/animal-feed/feed-additives/eu-register_en",
+             user_agent = "Food Standards Agency https://www.food.gov.uk/about-us/web-scraping-policy-0")
+
+assert_that(is.polite(rcheck) == TRUE, msg = "do not scrape")
+
 
 getinfo <- function(table) {
   table %>%

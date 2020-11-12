@@ -15,7 +15,13 @@ url <- read_csv("./reference/legislation-urls.csv") %>%
   .[1,2] %>% as.character() %>%
   geturl()
 
-contam <- read_html(url)
+rcheck = bow(url,
+             user_agent = "Food Standards Agency https://www.food.gov.uk/about-us/web-scraping-policy-0")
+
+assert_that(is.polite(rcheck) == TRUE, msg = "do not scrape")
+
+contam <- read_html(url,
+                    user_agent = "Food Standards Agency https://www.food.gov.uk/about-us/web-scraping-policy-0")
 
 # get footnotes
 

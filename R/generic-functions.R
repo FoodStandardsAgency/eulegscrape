@@ -25,7 +25,8 @@ counttables <- function(url) {
 #' @param n number of the table
 #'
 gettable <- function(url, n) {
-  xml2::read_html(url) %>%
+  xml2::read_html(url,
+                  user_agent = "Food Standards Agency https://www.food.gov.uk/about-us/web-scraping-policy-0") %>%
     rvest::html_nodes("table") %>%
     .[n] %>%
     rvest::html_table(fill = TRUE) %>%
